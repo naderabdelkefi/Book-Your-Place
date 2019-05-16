@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.naderabdelkefi.bookyourplace.ReservationActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Book Your Place"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonOpen"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonstylepink"
+            android:drawableLeft="@drawable/ic_gps_fixed_black_24dp"
+            android:gravity="center"
+            android:text="OPEN MAP"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:drawablePadding="10dp"
+            android:textAlignment="center"
+            android:text="DATE AND TIME" />
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:textAlignment="center"
+            android:text="THE POST OFFICE CLOSEST TO YOUR LOCATION" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ButtonConfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/buttonstylepink"
+                android:drawableLeft="@drawable/ic_send_black_24dp"
+                android:text="Confirm"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/ButtonClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@drawable/buttonstylepink"
+                android:drawableLeft="@drawable/ic_close_black_24dp"
+                android:text="Close"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
